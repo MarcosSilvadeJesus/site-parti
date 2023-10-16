@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title> 
+    <style> /*Mudando o estilo da página*/
+         /*Criando lista no body para mudar a cor do backgroud da página*/
+        * {
+            margin: 0;
+            padding: 0%;
+        } 
+         
+        body {
+            background-color: black;
+            margin: 0%;
+        }   
+        
+        .borda {
+            width: 30%;
+            border: solid 1px;
+            background-color:blue;
+            border-radius: 50px 50px;
+        }
+
+        .principal {
+            width: 100;
+            padding: 20px;
+            margin: auto;
+        }
+        
+         .container {
+            display: grid;
+        }
+        
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blanchedalmond;
+            
+
+        }
+
+        /*Criando menu dos links*/
+        .menu {
+            width: 355px;
+            grid-column-start: 4px;
+            grid-column-end: 12px;
+            justify-content: center;
+            background-color: red;
+            border-radius: 70px 70px;
+
+        }
+
+        /*Tirando o marcador de bolinhas*/
+        ul {
+            list-style-type: none;
+            
+        }
+        
+        /*Deixando o li a direita*/
+        li {
+            float: left;
+            
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 20px 20px;
+            border: solid black 1px;
+            color:red;
+            background-color: blue;
+        }
+
+        a:hover {
+            background-color: red;
+            color: blue;
+        }
+               
+        
+
+        h1 { /*mudando cor da fonte e centralizando o texto*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: greenyellow;
+        }
+
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: red;
+        }
+        
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: green;
+        }
+        
+        .corroxo {
+            color: purple;
+        }
+     
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <header class="container menu principal">
+        <nav>
+            <!--Criando lista-->
+            <ul>
+                <li><a href="index 2.html">Perfil profissional</a></li>
+                <li><a href="index 3.html">Porfólio</a></li>
+                <li><a href="index 4.html">Contato</a></li>
+            </ul>
+        </nav>
+        
+
+    </header>
+
+<img src="img/Captura de Tela (267).png" alt="Meu logo" title="Logo Nome">
+
+
+<h1>Perfil</h1> <!--Título da página-->
+<br>
+    <div class="principal borda">
+        <h3>Nome:</h3> <!--Usando h2 para criar subtítulo-->
+            <p>Marcos Silva de Jesus</p>
+                
+        <h3>Idade:</h3>
+            <p>23 anos</p> <!--Criando uma lista ul e li são os indices-->
+        <h3>Altura:</h3>
+            <p>1,77</p>
+        <h3>Animal preferido:</h3>
+            <p>Gatos</p>
+        <h3>Cor preferida:</h3>
+            <p class="corroxo">roxo</p>
+    
+    </div> 
+    <br>     
+    
+    <h1>Hobbies:</h1>
+    <div class="principal borda">
+            <h3>Jogos:</h3>
+                <p>luta, RPG, terror, aventura, indies, arcade e FPS.</p>
+                <br>
+                <p> Preferido - Monster Hunter</p>
+                <p><img src="img/9d6d3ee0-abcd-4cd3-b970-583f8a7b6f6f.jpg" alt="Capcom" title="game monster hunter world iceborn"></p>
+        
+            <h3>Livros:</h3>
+                <p>ficção científica, aventura e terror.</p>
+                <br>
+                <p>Preferido - percy jackson</p>
+                <p><img src="img/0ef910cf-e3dc-4ae1-a8f3-f6400add7648.jpg" alt="Rick Riordan" title="Livro Percy Jackson"> </p>
+
+            <h3>Filmes:</h3>
+                <p>terror, aventura, ficção científica, documentário, comédia, animação e suspense.</p>
+                <br>
+                <p>Preferido - Coraline </p>
+                <p><img src="img/2_99 on YouTube and Amazon prime.jpg" alt="amazon prime" title="Filme Coraline"></p>
+            
+    </div>
+
+    
+
+</body>
+</html>
